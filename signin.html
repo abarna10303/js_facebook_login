@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="sign-section">
+        <div class="sign-container">
+            <form action="">
+                <h1>Sign Up</h1>
+                <span>It's quick and easy.</span>
+                <hr>
+                <div class="fname">
+                    <div>
+                        <input type="text" placeholder="First Name" class="in-txt sign-txt" id="firstname" required>
+                    </div>
+                    <div>
+                        <input type="text" placeholder="Surname" class="in-txt sign-txt" id="surname">
+                    </div>
+                </div>
+                <div class="form-data">
+                    <input type="text" class="in-txt" placeholder="Mobile Number or email address" id="mobileno">
+                </div>
+                <div class="form-data">
+                    <input type="text" class="in-txt" placeholder="New Password" id="password">
+                </div>
+                <div class="form-data">
+                    <label for="dateofbirth" class="sign-lbl">Date of birth</label>
+                    <input type="date" name="dateofbirth" id="birthday" class="in-txt sign-txt">
+                </div>
+                <div class="form-data">
+                    <label for="gener" class="sign-lbl">Gender</label>
+                    <div class="gender">
+                        <div class="gen" name="custom">
+                            <label for="">Female</label>
+                            <input type="radio" name="gener" id="gender1">
+                        </div>
+                        <div class="gen" name="custom">
+                            <label for="">Male</label>
+                            <input type="radio" name="gener" id="gender2">
+                        </div>
+                        <div class="gen" name="custom">
+                            <label for="">Custom</label>
+                            <input type="radio" name="gener" id="gender3">
+                        </div>
+                    </div>
+                </div>
+                <p>People who use our service may have uploaded your contact information to Facebook. Learn more.</p>
+                <p>By clicking Sign Up, you agree to our Terms, Privacy Policy and Cookies Policy. You may receive SMS notifications from us and can opt out at any time.</p>
+                <button class="form-data btn-sign" id="signup">Sign Up</button>   
+            </form>
+        </div>
+    </section>
+    <script src="main1.js"></script>
+</body>
+</html>

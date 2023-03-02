@@ -1,0 +1,143 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: rgb(241, 242, 246);
+}
+.login-section{
+    margin: 100px 0px;
+}
+.login-container
+{
+    width: 75%;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    gap: 30px;
+}
+.col1{
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+.col2{
+    width: 40%;
+}
+.content h1{
+    font-size: 3.5rem;
+    color: rgb(45, 127, 235);
+    margin-bottom: 20px;
+}
+.content p{
+    font-size: 25px;
+}
+.form-content{
+    text-align: center;
+}
+.form-con{
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 15px #80808078;
+    border-radius: 15px;
+}
+.form-data{
+    display: block;
+    margin: 15px 0px;
+    width: 100%;
+    border-radius: 5px;
+}
+.in-txt{
+    width: 100%;
+}
+.in-txt,.btn-log,.btn-sign{
+    padding: 13px;
+}
+.btn-log,.btn-sign{
+    color: white;
+    border: none;
+    font-size: 17px;
+}
+.in-txt{
+    border:1px solid #80808036;
+    border-radius: 5px;
+}
+hr{
+   border-color: #80808036;
+}
+.btn-log{
+    background-color: rgb(45, 127, 235);   
+}
+.btn-sign{
+    background-color: green;
+    width: 50%;
+    margin: 20px auto;
+}
+.col2 p{
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+/*sign up*/
+.sign-section{
+    margin: 100px 0px;
+
+}
+.sign-container{
+    width: 35%;
+    margin: 0 auto;
+    color: gray;
+    background-color: white;
+    padding: 20px;
+}
+.sign-container p{
+    margin: 10px 0px;
+    font-size: 12px;
+}
+.sign-container h1{
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: black;
+}
+.sign-container hr{
+    margin: 10px 0px;
+}
+.fname{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+.sign-lbl{
+    display: block;
+    margin: 10px 0px;
+}
+.gender{
+    display: flex;
+    justify-content: space-between;
+}
+.gen{
+    border: 1px solid #80808036;
+    padding: 13px;
+    border-radius: 5px;
+}
+
+.error{
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 13px;
+    width: 100%;   
+}
+.generror
+{
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 13px;
+}
